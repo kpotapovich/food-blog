@@ -18,7 +18,6 @@ body{
 .header{
   background: #544580;
   padding-top: 8px;
-  padding-bottom: 8px;
 }
 
 .icons_font{
@@ -135,3 +134,27 @@ body{
   margin: 0;
 }
 
+.footer {
+  background: #2A1440;
+  height: 230px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+}
+
+.footer-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.food-blog {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.social {
+  text-align: center;
+}
