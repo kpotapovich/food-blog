@@ -180,3 +180,38 @@ body{
   padding-top: 40%;
 
 }
+
+
+.ingredients-menu {
+  display: flex;
+  margin: 0;
+}
+span{
+  color: #000;
+}
+
+
+.food {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #84B98C;
+}
+
+.ingredients-padding {
+  padding-right: 200px;
+}
+
+.food-nav:after{
+  content: '';
+  display: inline-block;
+  height: 1px;
+  background: #A9A3A3;
+  width: 55%;
+  margin: 50px 0;
+}
+
+.description {
+  max-width: 700px;
+}
